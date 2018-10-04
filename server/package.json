@@ -1,9 +1,8 @@
 {
   "name": "srvsyn",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library to execute serversided JavaScript functions from the client!",
   "main": "srvsyn.js",
-  "homepage": "https://3-klicks.de",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
