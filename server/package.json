@@ -1,0 +1,17 @@
+{
+  "name": "srvsyn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srvsyn.js",
+  "homepage": "https://3-klicks.de",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonhard Pfob",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3"
+  }
+}
