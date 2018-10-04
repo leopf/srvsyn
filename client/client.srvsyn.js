@@ -37,8 +37,6 @@ serverLib.requestExecute = function(name, args)
         functionName: name 
     });
 
-    console.log(execData);
-
     if (execData.authToken)
     {
         this.setAuthToken(execData.authToken);
@@ -85,7 +83,6 @@ serverLib.initialize = function()
     
     var initData = this.request(config.initPath, { authToken: this.authToken });
 
-    console.log(initData);
     if (initData.functionNames)
     {
         this.initServer(initData.functionNames);
