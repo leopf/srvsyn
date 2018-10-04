@@ -1,6 +1,6 @@
 {
   "name": "srvsyn",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A library to execute serversided JavaScript functions from the client!",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,7 @@
   "author": "Leonhard Pfob",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "crypto": "^1.0.1",
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3"
   },
   "directories": {
     "lib": "lib"
