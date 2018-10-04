@@ -1,16 +1,30 @@
 {
   "name": "srvsyn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to execute serversided JavaScript functions from the client!",
-  "main": "srvsyn.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Leonhard Pfob",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "crypto": "^1.0.1",
     "express": "^4.16.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopf/srvsyn.git"
+  },
+  "keywords": [
+    "commumnication"
+  ],
+  "bugs": {
+    "url": "https://github.com/leopf/srvsyn/issues"
+  },
+  "homepage": "https://github.com/leopf/srvsyn#readme"
 }
